@@ -1,0 +1,20 @@
+{
+  "name": "pvoutput-to-influx",
+  "version": "1.0.0",
+  "description": "parsing pvoutput csv file and putting the data into influxdb",
+  "main": "pvoutput-to-influx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines" : {
+      "node" : ">=13.9.0"
+  },
+  "author": "Peter Peerdeman <peter@peterpeerdeman.nl> (https://peterpeerdeman.nl)",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "csv-parse": "^4.8.3",
+    "influxdb-nodejs": "^3.1.0",
+    "moment": "^2.24.0"
+  }
+}
