@@ -15,6 +15,6 @@
     "commander": "^5.1.0",
     "csv-parse": "^4.8.3",
     "influxdb-nodejs": "^3.1.0",
-    "moment": "^2.24.0"
+    "moment": "^2.29.4"
   }
 }
